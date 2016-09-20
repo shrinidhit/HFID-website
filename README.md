@@ -11,3 +11,4 @@ Enter your Olin network password when prompted.
 
 The folder permissions are hopefully right, but if you run into problems, let me (Franton) know!
 
+This is a git hooks test.
