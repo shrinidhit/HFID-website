@@ -7,6 +7,7 @@ After cloning this repository, type the following inside of the repository to ad
 
 To push to linwebprod, type:
 ```git push web master```
+Enter your Olin network password when prompted.
 
 The folder permissions are hopefully right, but if you run into problems, let me (Franton) know.
 
