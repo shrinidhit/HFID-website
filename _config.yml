@@ -1,5 +1,5 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
+title: Badlands
+description: Streamlining the US Visa application process through interface design.
 
 url: http://hfid.olin.edu/
 baseurl: "http://hfid.olin.edu/sa2017/badlands/jekyll"
@@ -19,10 +19,10 @@ navigation:
  - title: Contact
    url: /contact.html
 
-social:
-   github: brianmaierjr
-   twitter: brianmaierjr
-   facebook: brianmaierjr
-   email: brimaidesigns@gmail.com
+# social:
+#    github: brianmaierjr
+#    twitter: brianmaierjr
+#    facebook: brianmaierjr
+#    email: brimaidesigns@gmail.com
 
 # google_analytics: "UA-58263416-1"
