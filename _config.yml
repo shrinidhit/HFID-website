@@ -1,8 +1,8 @@
 title: Long Haul
 description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
 
-url: http://hfid.olin.edu/sa2017/badlands/jekyll
-baseurl: ""
+url: http://hfid.olin.edu/
+baseurl: "sa2017/badlands/jekyll"
 # paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
