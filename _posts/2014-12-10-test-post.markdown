@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Test Post"
+title:  "Test Post"
 date:   2014-12-10
 ---
 
