@@ -4,3 +4,7 @@ body {
 .center {
   text-align: center;
 }
+.smallimage{
+   max-width:50%;
+   max-height:50%;
+}
