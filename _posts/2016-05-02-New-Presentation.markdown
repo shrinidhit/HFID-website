@@ -134,18 +134,6 @@ Now, you CAN write in HTML using this template. If you want to create HTML prese
 
 <p style="color:red">This is a red text with <span style="color:blue">blue</span> and <span style="color:green">green</span> inline text.</p>
 
-{{ page.horizontal }}
-
-## STL
-
-<div align="center"><script src="https://embed.github.com/view/3d/projectpages/project-pages/gh-pages/stl/test.stl"></script></div>
-
-{{ page.horizontal }}
-
-## Data Projector
-
-<embed src="/project-pages/2016/05/02/New-Projector/" height="500px" width="100%">
-
 <!-- End Here -->
 {{ page.horizontal }}
 
