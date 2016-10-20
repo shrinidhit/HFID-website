@@ -1,12 +1,15 @@
 body {
   font-family: Tahoma, Geneva, sans-serif;
+  font-size: 12pt;
 }
 .center {
   text-align: center;
 }
 .smallimage{
-   max-width:50%;
-   max-height:50%;
+   max-width:500px;
+}
+.smallestimage{
+   max-width:300px;
 }
 .mediumimage{
    max-width:70%;
