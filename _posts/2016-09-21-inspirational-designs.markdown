@@ -73,18 +73,21 @@ Using natural language, you can ask Siri anything and it will try to bring up th
 Wikipedia is an example of how crowdsourcing information can be extremely successful and powerful. Even though no single person is responsible of keeping track of the information, Wikipedia pages remain incredibly up-to-date and relevant. This is because Wikipedia has a huge community of passionate users who maintain the information. Crowdsourcing information about immigration could be a way to keep the information up to date, potentially in multiple languages. The downside of crowdsourcing is that it can be hard to get off the ground and may not always be consistent. Wikipedia's homepage is also extremely language and user friendly, with many options for languages immediately displayed and a search bar that usually brings the user directly to a page with information. Taking cues from Wikipedia by having many languages up front and search bar navigation may help us to create a user friendly interface. Each of Wikipedia's pages, however, are often very dense with text and not necessarily the easiest to read.
 
 #### Touchscreen Building Directory - Haley
-<figure>
-	<img src="{{ '/images/touchscreen_bd_1.png' | prepend: site.baseurl }}" alt="Using Touchscreen BD"> 
-</figure>
+<div class="row">
+	<div class="col l4">
+		<img src="{{ '/images/touchscreen_bd_1.png' | prepend: site.baseurl }}" alt="Using Touchscreen BD"> 
+	</div>
+	<div class="col l8">
+		<img src="{{ '/images/touchscreen_bd_2.png' | prepend: site.baseurl }}" alt="Touchscreen BD Interface"> 
+		<figcaption>Interface for a touchscreen building directory</figcaption>
+	</div>
+</div>
 Touchscreen building directories are great examples of how to provide strictly relevant information via a simple, intuitive interface. They typically reside in the lobbies of large, commercial buildings and list the names of businesses within the building and the floors and suite numbers at which they reside. They will usually also show the locations of restrooms, telephones, cafeterias, parking, and other services within the building. In some cases, they even show a weather forecast, which can be useful for commuters planning their trip home or their trip to work the next day. 
-<figure>
-	<img src="{{ '/images/touchscreen_bd_2.png' | prepend: site.baseurl }}" alt="Touchscreen BD Interface"> 
-	<figcaption>Interface for a touchscreen building directory</figcaption>
-</figure>
+
 The touchscreens themselves are large, and their interfaces typically include a list of every business and service within the building. The combination of convenient location, limited information, and intuitive interface means that you don't have to go searching for the information you need -- it's just there. We can draw inspiration from these qualities, as this is the kind of experience we want to emulate in our project.
 
 #### Google Search - Radmer
-<figure>
+<figure class="col l6 offset-l3">
 	<img src="{{ '/images/google_search.png' | prepend: site.baseurl }}" alt="Google Search"> 
 	<figcaption>Example of a Google Search "best" answer card</figcaption>
 </figure>
@@ -92,12 +95,12 @@ With Google search, all questions you have can be answered in a generally defini
 
 #### The Work Department - Shrinidhi
 The Work Dept speaks to the accessibility component of our project. The Work dept is a women-led design consultancy based in Detroit, that makes complex information easy to understand. Their chart below visualizes a family's qualification for several financial aid options. The infographic is friendly (bright colors and happy emojis) and accessible (large fonts and simple wording).
-<figure>
+<figure class="col l6 offset-l3">
 	<img src="{{ '/images/work_dept_1.png' | prepend: site.baseurl }}" alt="The Work Dept Infographic"> 
 	<figcaption>Infographic from The Work Dept</figcaption>
 </figure>
 The Work Dept. also works directly with our user group. Many of their past works are targeted to low income, immigrant parents. These projects are both in both English and Spanish (an example is shown below). This is a reminder to us that having multiple languages is very important to our product.
-<figure>
+<figure class="col l6 offset-l3">
 	<img src="{{ '/images/work_dept_2.png' | prepend: site.baseurl }}" alt="The Work Dept Multilingual"> 
 	<figcaption>Multilingual Pamphlet from The Work Dept</figcaption>
 </figure>
