@@ -74,18 +74,18 @@ Wikipedia is an example of how crowdsourcing information can be extremely succes
 
 #### Touchscreen Building Directory - Haley
 <figure>
-	<img src="{{ '/assets/img/touchscreen_bd_1.png' | prepend: site.baseurl }}" alt="Using Touchscreen BD"> 
+	<img src="{{ '/images/touchscreen_bd_1.png' | prepend: site.baseurl }}" alt="Using Touchscreen BD"> 
 </figure>
 Touchscreen building directories are great examples of how to provide strictly relevant information via a simple, intuitive interface. They typically reside in the lobbies of large, commercial buildings and list the names of businesses within the building and the floors and suite numbers at which they reside. They will usually also show the locations of restrooms, telephones, cafeterias, parking, and other services within the building. In some cases, they even show a weather forecast, which can be useful for commuters planning their trip home or their trip to work the next day. 
 <figure>
-	<img src="{{ '/assets/img/touchscreen_bd_2.png' | prepend: site.baseurl }}" alt="Touchscreen BD Interface"> 
+	<img src="{{ '/images/touchscreen_bd_2.png' | prepend: site.baseurl }}" alt="Touchscreen BD Interface"> 
 	<figcaption>Interface for a touchscreen building directory</figcaption>
 </figure>
 The touchscreens themselves are large, and their interfaces typically include a list of every business and service within the building. The combination of convenient location, limited information, and intuitive interface means that you don't have to go searching for the information you need -- it's just there. We can draw inspiration from these qualities, as this is the kind of experience we want to emulate in our project.
 
 #### Google Search - Radmer
 <figure>
-	<img src="{{ '/assets/img/google_search.png' | prepend: site.baseurl }}" alt="Google Search"> 
+	<img src="{{ '/images/google_search.png' | prepend: site.baseurl }}" alt="Google Search"> 
 	<figcaption>Example of a Google Search "best" answer card</figcaption>
 </figure>
 With Google search, all questions you have can be answered in a generally definitive way. If I were to type a question such as "what is the weather," Google search presents the "best" answer in a card at the top of the page, giving me a clear, direct answer to the question I asked. "Best" is still relative, however, as what makes it into the card is either a Google tailored graphic, like for the weather question, or content from the top response. However, to the user it feels as if Google knows what question was asked and tailored its display accordingly. Also even if I leave off information necessary to answer the question asked like my location, Google search will still be able to answer it by pulling in more information than I provided in the search bar. For our concept, users should feel the answers we provide are definitive in this same way. That might mean we want to borrow the concept of a card containing the "best" answer or something similar to this. We might also want to use similar dynamic graphics or visualizations in our product as those help provide more details to the user.
@@ -93,11 +93,11 @@ With Google search, all questions you have can be answered in a generally defini
 #### The Work Department - Shrinidhi
 The Work Dept speaks to the accessibility component of our project. The Work dept is a women-led design consultancy based in Detroit, that makes complex information easy to understand. Their chart below visualizes a family's qualification for several financial aid options. The infographic is friendly (bright colors and happy emojis) and accessible (large fonts and simple wording).
 <figure>
-	<img src="{{ '/assets/img/work_dept_1.png' | prepend: site.baseurl }}" alt="The Work Dept Infographic"> 
+	<img src="{{ '/images/work_dept_1.png' | prepend: site.baseurl }}" alt="The Work Dept Infographic"> 
 	<figcaption>Infographic from The Work Dept</figcaption>
 </figure>
 The Work Dept. also works directly with our user group. Many of their past works are targeted to low income, immigrant parents. These projects are both in both English and Spanish (an example is shown below). This is a reminder to us that having multiple languages is very important to our product.
 <figure>
-	<img src="{{ '/assets/img/work_dept_2.png' | prepend: site.baseurl }}" alt="The Work Dept Multilingual"> 
+	<img src="{{ '/images/work_dept_2.png' | prepend: site.baseurl }}" alt="The Work Dept Multilingual"> 
 	<figcaption>Multilingual Pamphlet from The Work Dept</figcaption>
 </figure>

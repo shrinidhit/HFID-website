@@ -1,28 +1,52 @@
-title: Badlands
-description: Streamlining the US Visa application process through interface design.
-
+title: "Badlands"
+description: "Streamlining the US Visa application process through interface design."
+about: "Streamlining the US Visa application process through interface design."
+location: "Olin College of Engineering"
 url: http://hfid.olin.edu/
 baseurl: "http://hfid.olin.edu/sa2017/badlands/jekyll"
-# paginate_path: "blog/page:num/"
-permalink: blog/:title/
 
+# google analytics tracking code, please change the value
+g_analytics: ""
+
+# language settings
+isolang: en
+close_btn: "Close"
+home_btn: "Home"
+projects_btn: "About Us"
+posts_btn: "Assignments"
+imprint_btn: "Imprint"
+name_badge: "an article by"
+rss_badge: "Subscribe feed!"
+
+# build settings
 markdown: kramdown
 highlighter: rouge
-# gems: [jekyll-paginate]
-# paginate: 5
 
-navigation:
- - title: Home
-   url: /index.html
- - title: About
-   url: /about.html
- - title: Contact
-   url: /contact.html
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    tab_width: 4
+    
+# third party gems
+gems:
+  - jekyll-paginate
+  # - jekyll-gist
+  # - jemoji
 
-# social:
-#    github: brianmaierjr
-#    twitter: brianmaierjr
-#    facebook: brianmaierjr
-#    email: brimaidesigns@gmail.com
-
-# google_analytics: "UA-58263416-1"
+whitelist:
+  - jekyll-paginate
+  # - jekyll-gist
+  # - jemoji
+  
+# exclude files
+exclude:
+  - LICENSE
+  - README.md
