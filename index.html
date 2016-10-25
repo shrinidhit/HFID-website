@@ -15,7 +15,7 @@ layout: default
     <li>
       <p class="my-item">
         <a href="{{ post.url | prepend: site.baseurl }}" class="my-link">{{ post.title }}</a><br>
-        <span class="my-item-sub">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="my-item-sub">{{ post.description }}</span>
       </p>
     </li>
     {% endfor %}

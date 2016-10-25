@@ -2,6 +2,7 @@
 layout: post
 title:  "Inspirational Designs"
 date:   2016-09-21
+description: 2016-09-21
 ---
 
 ## Group Ideation
