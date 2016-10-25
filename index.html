@@ -29,17 +29,9 @@ layout: default
 
 <div id="projects">
   <h2 class="my-mini-heading">{{ site.projects_btn }}</h2>
-  <ul>
-    {% for project in site.data.projects %}
-    <li>
-      <p class="my-item"><a href="{{ project.link }}" class="my-link">{{ project.name }}</a><br>
-        <span class="my-item-sub">
-        {{ project.description }}
-      </span>
-      </p>
-    </li>
-    {% endfor %}
-  </ul>
+    <p class="my-text-body">
+      Information about us coming soon.
+    </p>
   <div>
     <a onclick="hide_lists();" class="waves-effect waves-brick btn-flat btn-large">{{ site.close_btn }}</a>
   </div>
@@ -68,16 +60,8 @@ layout: default
   </div>
   <div id="projects-noscript">
     <h2 class="my-mini-heading">{{ site.projects_btn }}</h2>
-    <ul>
-      {% for project in site.data.projects %}
-      <li>
-        <p class="my-item"><a href="{{ project.link }}" class="my-link">{{ project.name }}</a><br>
-          <span class="my-item-sub">
-        {{ project.description }}
-      </span>
-        </p>
-      </li>
-      {% endfor %}
-    </ul>
+    <p class="my-text-body">
+      Information about us coming soon.
+    </p>
   </div>
 </noscript>
