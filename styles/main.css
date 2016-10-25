@@ -100,6 +100,14 @@ a{
     font-family: 'Share Tech Mono', monospace;
     color: #F57F17;
 }
+ul{
+    padding-left: 40px;
+    list-style-type: inherit;
+}
+ul li{
+    list-style-type: inherit;
+    clear: both;
+}
 .my-link{
     font-size: 18px !important;
 }
@@ -183,6 +191,7 @@ a{
     font-family: 'Rubik One', sans-serif;
     font-weight: 300 !important;
     margin-bottom: 20px;
+    clear: both;
 }
 .my-text-body h1{
     font-size: 25px;
