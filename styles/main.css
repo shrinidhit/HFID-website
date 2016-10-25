@@ -100,14 +100,6 @@ a{
     font-family: 'Share Tech Mono', monospace;
     color: #F57F17;
 }
-ul{
-    padding-left: 40px;
-    list-style-type: inherit;
-}
-ul li{
-    list-style-type: inherit;
-    clear: both;
-}
 .my-link{
     font-size: 18px !important;
 }
@@ -234,6 +226,14 @@ ul li{
     text-decoration: underline;
 }
 .my-text-body p{
+    clear: both;
+}
+.my-text-body ul{
+    padding-left: 40px;
+    list-style-type: inherit;
+}
+.my-text-body ul li{
+    list-style-type: inherit;
     clear: both;
 }
 
