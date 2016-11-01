@@ -11,7 +11,7 @@ Last phase, we narrowed down our problem to assisting international and exchange
 ## Final Design
 
 <figure class="col l8 offset-l2">
-	<img src="{{ '/images/final_design_1.jpg' | prepend: site.burl }}" alt="Final Design"> 
+	<img src="{{ '/images/final_design_1.jpg' | prepend: site.baseurl }}" alt="Final Design"> 
 </figure>
 
 Our product is an interface to help manage the Visa application process for exchange students. It does not complete the application for the user. Rather, it provides information on deadlines, and the steps you need to take to complete your visa. The key features are:
@@ -19,37 +19,37 @@ Our product is an interface to help manage the Visa application process for exch
 -   ##### A step based approach
     Users wanted to see a simple left to right or top down progression of what they have to do for their visa, step by step. Our timeline prototype allowed users to jump around in a different order, but it was still used only left-to-right in testing. Our list prototype was also used only top-to-down.
     <figure class="col l6 offset-l3">
-        <img src="{{ '/images/feature_steps.png' | prepend: site.burl }}" alt="Final Design Feature Steps">
+        <img src="{{ '/images/feature_steps.png' | prepend: site.baseurl }}" alt="Final Design Feature Steps">
     </figure>
 
 -   ##### Detailed help on how to complete each step
     We learned from our timeline prototype that just giving the basic steps like acceptance letter or passport copy are not enough. Students want to see more information on what each of those mean, and how to complete them.
     <figure class="col l6 offset-l3">
-        <img src="{{ '/images/feature_details.png' | prepend: site.burl }}" alt="Final Design Feature Details">
+        <img src="{{ '/images/feature_details.png' | prepend: site.baseurl }}" alt="Final Design Feature Details">
     </figure>
 
 -   ##### Ability to see a high level overview
     Users wanted to move through the tasks in order quickly, just to see their entire process before they even started. We originally had the “done” or “checkoff” button be the central call to action for each screen, and realized this wasn’t the right priority. This prototype, each screen’s primary call to action is the “next” button.
     <figure class="col l6 offset-l3">
-        <img src="{{ '/images/feature_next.png' | prepend: site.burl }}" alt="Final Design Feature Next">
+        <img src="{{ '/images/feature_next.png' | prepend: site.baseurl }}" alt="Final Design Feature Next">
     </figure>
 
 -   ##### Dates are extremely important to see at all times
     Dates and deadlines are very important to our users, because it was universally ranked within the top 5 on our cardsortings (results explained in further detail below). This prototype shows dates for all tasks on the top bar, and a detailed description of suggested start dates in each task.
     <figure class="col l6 offset-l3">
-        <img src="{{ '/images/feature_dates.png' | prepend: site.burl }}" alt="Final Design Feature Dates">
+        <img src="{{ '/images/feature_dates.png' | prepend: site.baseurl }}" alt="Final Design Feature Dates">
     </figure>
 
 -   ##### Prerequisites are important, and must be visualized in an intuitive way
     Prerequisites were also universally ranked within the top 5 in our cardsorting results. Our timeline showed prerequisites, but in many places, and in a slightly more confusing way. This prototype tries a new visualization: small dots are prerequisites, leading up to big dots, which are the final forms. This allows the prerequisites to work with our step based approach, and we will have to do further testing to see if it’s a useful visualization.
     <figure class="col l6 offset-l3">
-        <img src="{{ '/images/feature_prereqs.png' | prepend: site.burl }}" alt="Final Design Feature Prereqs">
+        <img src="{{ '/images/feature_prereqs.png' | prepend: site.baseurl }}" alt="Final Design Feature Prereqs">
     </figure>
 
 ## Cardsorting
 In our card sorting exercise and in our usability test, Users showed they care a lot about the timing of tasks--when they should start them and when are they due--the context around tasks, how to complete a task, and what are the prerequisites of a task. Our design meets all of these by having a recommended start date and a deadline for each large task or milestone, by having lots of room on the expanding panel for a description of why this step is necessary and how to complete it, and by having a linear progression with size indicating that the larger bubble needs the smaller bubbles to be finished first.
 <figure class="col l8 offset-l2">
-    <img src="{{ '/images/cards.jpg' | prepend: site.burl }}" alt="Card Sorting">
+    <img src="{{ '/images/cards.jpg' | prepend: site.baseurl }}" alt="Card Sorting">
 </figure>
 
 ## Prototype One: Timeline
@@ -59,39 +59,39 @@ From our usability studies, we found that there were many points of confusion wi
 
 <div class="row">
 	<div class="col l6">
-		<img src="{{ '/images/start_1.jpg' | prepend: site.burl }}" alt="Timeline 1"> 
+		<img src="{{ '/images/start_1.jpg' | prepend: site.baseurl }}" alt="Timeline 1"> 
 	</div>
 	<div class="col l6">
-		<img src="{{ '/images/start_2.jpg' | prepend: site.burl }}" alt="Timeline 2"> 
-	</div>
-</div>
-<div class="row">
-	<div class="col l6">
-		<img src="{{ '/images/start_3.jpg' | prepend: site.burl }}" alt="Timeline 3"> 
-	</div>
-	<div class="col l6">
-		<img src="{{ '/images/start_4.jpg' | prepend: site.burl }}" alt="Timeline 4"> 
+		<img src="{{ '/images/start_2.jpg' | prepend: site.baseurl }}" alt="Timeline 2"> 
 	</div>
 </div>
 <div class="row">
 	<div class="col l6">
-		<img src="{{ '/images/timeline_1.jpg' | prepend: site.burl }}" alt="Timeline 5"> 
+		<img src="{{ '/images/start_3.jpg' | prepend: site.baseurl }}" alt="Timeline 3"> 
 	</div>
 	<div class="col l6">
-		<img src="{{ '/images/timeline_2.jpg' | prepend: site.burl }}" alt="Timeline 6"> 
-	</div>
-</div>
-<div class="row">
-	<div class="col l6">
-		<img src="{{ '/images/timeline_3.jpg' | prepend: site.burl }}" alt="Timeline 7"> 
-	</div>
-	<div class="col l6">
-		<img src="{{ '/images/timeline_4.jpg' | prepend: site.burl }}" alt="Timeline 8"> 
+		<img src="{{ '/images/start_4.jpg' | prepend: site.baseurl }}" alt="Timeline 4"> 
 	</div>
 </div>
 <div class="row">
 	<div class="col l6">
-		<img src="{{ '/images/timeline_5.jpg' | prepend: site.burl }}" alt="Timeline 9"> 
+		<img src="{{ '/images/timeline_1.jpg' | prepend: site.baseurl }}" alt="Timeline 5"> 
+	</div>
+	<div class="col l6">
+		<img src="{{ '/images/timeline_2.jpg' | prepend: site.baseurl }}" alt="Timeline 6"> 
+	</div>
+</div>
+<div class="row">
+	<div class="col l6">
+		<img src="{{ '/images/timeline_3.jpg' | prepend: site.baseurl }}" alt="Timeline 7"> 
+	</div>
+	<div class="col l6">
+		<img src="{{ '/images/timeline_4.jpg' | prepend: site.baseurl }}" alt="Timeline 8"> 
+	</div>
+</div>
+<div class="row">
+	<div class="col l6">
+		<img src="{{ '/images/timeline_5.jpg' | prepend: site.baseurl }}" alt="Timeline 9"> 
 	</div>
 </div>
 
@@ -104,23 +104,23 @@ While our initial conversations with users seemed to point to a feature that wou
 
 <div class="row">
 	<div class="col l6">
-		<img src="{{ '/images/list_1.jpg' | prepend: site.burl }}" alt="List 1"> 
+		<img src="{{ '/images/list_1.jpg' | prepend: site.baseurl }}" alt="List 1"> 
 	</div>
 	<div class="col l6">
-		<img src="{{ '/images/list_2.jpg' | prepend: site.burl }}" alt="List 2"> 
-	</div>
-</div>
-<div class="row">
-	<div class="col l6">
-		<img src="{{ '/images/list_3.jpg' | prepend: site.burl }}" alt="List 3"> 
-	</div>
-	<div class="col l6">
-		<img src="{{ '/images/list_4.jpg' | prepend: site.burl }}" alt="List 4"> 
+		<img src="{{ '/images/list_2.jpg' | prepend: site.baseurl }}" alt="List 2"> 
 	</div>
 </div>
 <div class="row">
 	<div class="col l6">
-		<img src="{{ '/images/list_5.jpg' | prepend: site.burl }}" alt="List 5"> 
+		<img src="{{ '/images/list_3.jpg' | prepend: site.baseurl }}" alt="List 3"> 
+	</div>
+	<div class="col l6">
+		<img src="{{ '/images/list_4.jpg' | prepend: site.baseurl }}" alt="List 4"> 
+	</div>
+</div>
+<div class="row">
+	<div class="col l6">
+		<img src="{{ '/images/list_5.jpg' | prepend: site.baseurl }}" alt="List 5"> 
 	</div>
 </div>
 
