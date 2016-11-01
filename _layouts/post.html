@@ -29,13 +29,13 @@ layout: default
 
   <div class="center-align footer-buttons">
   {% if page.next.url %}
-    <a class="btn-flat btn-large my-thin-btn" href="{{ page.next.url | prepend: site.baseurl }}"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+    <a class="btn-flat btn-large my-thin-btn" href="{{ page.next.url | prepend: site.burl }}"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
   {% else %}
     <a class="btn-flat btn-large my-thin-btn disabled"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
   {% endif %}
-  <a class="btn-flat btn-large" href="{{ site.baseurl }}/">{{ site.home_btn }}</a>
+  <a class="btn-flat btn-large" href="{{ site.burl }}/">{{ site.home_btn }}</a>
   {% if page.previous.url %}
-    <a class="btn-flat btn-large my-thin-btn" href="{{ page.previous.url | prepend: site.baseurl }}"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+    <a class="btn-flat btn-large my-thin-btn" href="{{ page.previous.url | prepend: site.burl }}"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
   {% else %}
         <a class="btn-flat btn-large my-thin-btn disabled"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
   {% endif %}

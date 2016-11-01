@@ -4,6 +4,7 @@ about: "Streamlining the US Visa application process through interface design."
 location: "Olin College of Engineering"
 url: http://hfid.olin.edu/
 baseurl: "http://hfid.olin.edu/sa2017/badlands"
+burl: "http://hfid.olin.edu/sa2017/badlands"
 
 #
 # google analytics tracking code, please change the value

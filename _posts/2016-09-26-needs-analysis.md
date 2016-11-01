@@ -27,7 +27,7 @@ And yet, there are some problems involving government information that cannot be
 With a successful solution, an individual should walk away with a renewed appreciation in the functions of government and its ability to get get things done. In the future, our solution should become the first stop to for information or completing tasks involving the government.
 
 ## Design Artifacts
-[See our design artifacts here]({{ site.baseurl }}{% post_url 2016-09-26-design-artifacts %})
+[See our design artifacts here]({{ site.burl }}{% post_url 2016-09-26-design-artifacts %})
 
 ## Narrative
 
