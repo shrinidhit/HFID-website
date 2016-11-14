@@ -16,31 +16,31 @@ Last phase, we narrowed down our problem to assisting international and exchange
 
 Our product is an interface to help manage the Visa application process for exchange students. It does not complete the application for the user. Rather, it provides information on deadlines, and the steps you need to take to complete your visa. The key features are:
 
--   ##### A step based approach
+-   **A step based approach**<br>
     Users wanted to see a simple left to right or top down progression of what they have to do for their visa, step by step. Our timeline prototype allowed users to jump around in a different order, but it was still used only left-to-right in testing. Our list prototype was also used only top-to-down.
     <figure class="col l6 offset-l3">
         <img src="{{ '/images/feature_steps.png' | prepend: site.baseurl }}" alt="Final Design Feature Steps">
     </figure>
 
--   ##### Detailed help on how to complete each step
+-   **Detailed help on how to complete each step**<br>
     We learned from our timeline prototype that just giving the basic steps like acceptance letter or passport copy are not enough. Students want to see more information on what each of those mean, and how to complete them.
     <figure class="col l6 offset-l3">
         <img src="{{ '/images/feature_details.png' | prepend: site.baseurl }}" alt="Final Design Feature Details">
     </figure>
 
--   ##### Ability to see a high level overview
+-   **Ability to see a high level overview**<br>
     Users wanted to move through the tasks in order quickly, just to see their entire process before they even started. We originally had the “done” or “checkoff” button be the central call to action for each screen, and realized this wasn’t the right priority. This prototype, each screen’s primary call to action is the “next” button.
     <figure class="col l6 offset-l3">
         <img src="{{ '/images/feature_next.png' | prepend: site.baseurl }}" alt="Final Design Feature Next">
     </figure>
 
--   ##### Dates are extremely important to see at all times
+-   **Dates are extremely important to see at all times**<br>
     Dates and deadlines are very important to our users, because it was universally ranked within the top 5 on our cardsortings (results explained in further detail below). This prototype shows dates for all tasks on the top bar, and a detailed description of suggested start dates in each task.
     <figure class="col l6 offset-l3">
         <img src="{{ '/images/feature_dates.png' | prepend: site.baseurl }}" alt="Final Design Feature Dates">
     </figure>
 
--   ##### Prerequisites are important, and must be visualized in an intuitive way
+-   **Prerequisites are important, and must be visualized in an intuitive way**<br>
     Prerequisites were also universally ranked within the top 5 in our cardsorting results. Our timeline showed prerequisites, but in many places, and in a slightly more confusing way. This prototype tries a new visualization: small dots are prerequisites, leading up to big dots, which are the final forms. This allows the prerequisites to work with our step based approach, and we will have to do further testing to see if it’s a useful visualization.
     <figure class="col l6 offset-l3">
         <img src="{{ '/images/feature_prereqs.png' | prepend: site.baseurl }}" alt="Final Design Feature Prereqs">

@@ -35,6 +35,13 @@ src:local('Material Icons'),local(MaterialIcons-Regular),url(fonts/icons.woff2) 
   src: local('Libre Baskerville'), local('LibreBaskerville-Regular'), url(fonts/slbe.woff2) format('woff2');
   unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: bold;
+  font-weight: 700;
+  src: local('Libre Baskerville'), local('LibreBaskerville-Regular'), url(fonts/slbe-bold.ttf) format('truetype');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
 /* latin */
 @font-face {
   font-family: 'Libre Baskerville';
@@ -48,6 +55,12 @@ src:local('Material Icons'),local(MaterialIcons-Regular),url(fonts/icons.woff2) 
   font-style: normal;
   font-weight: 400;
   src: local('Libre Baskerville'), local('LibreBaskerville-Regular'), url(fonts/lbl.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: bold;
+  font-weight: 700;
+  src: local('Libre Baskerville'), local('LibreBaskerville-Regular'), url(fonts/lbl-bold.ttf) format('truetype');
 }
 
 /* latin */
@@ -99,6 +112,9 @@ src:local('Material Icons'),local(MaterialIcons-Regular),url(fonts/icons.woff2) 
 a{
     font-family: 'Share Tech Mono', monospace;
     color: #F57F17;
+}
+strong, b{
+    font-weight: bold;
 }
 .my-link{
     font-size: 18px !important;
@@ -227,6 +243,7 @@ a{
 }
 .my-text-body p{
     clear: both;
+    margin-top: 0.5em;
 }
 .my-text-body ul{
     padding-left: 40px;

@@ -5,7 +5,7 @@ date:   2016-11-13
 description: 2016-11-13
 ---
 
-Based on our work in this phase and the feedback we received from the heuristic evaluations, we plan on making the following changes to our prototype:
+Based on our work in this phase and the feedback we received from the heuristic evaluations ([Deniz]({{"/documents/deniz-eval.html" | prepend: site.baseurl }}), ), we plan on making the following changes to our prototype:
 
 #### Create an Account
 In our current prototype, the “create account” section is on the left hand side of the start page, and is called “Start New,” while the login section is on the right hand side. The “Start New” wording was confusing to our users, so we will change it to say “Create Account”. The “login” and “create account” sections were also too visually similar, and users were confused which was which. We looked at Facebook’s login/create account page, and realized we can make the login section visually separate by putting it in the title bar, while leaving the create account section on the main page.
