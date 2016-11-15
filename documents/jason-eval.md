@@ -7,11 +7,11 @@ parentname: 2016-11-13-design-refinement
 parenttitle: "Design Refinement"
 ---
 
-#### Like
+### Like
 
 The application provides an amazingly concise interface the helps user through out the process of I-20 application. Each page provides great visibility of required documents and suggestions. As an international student myself, I feel the app will be a great help to students applying for I-20 forms.
 
-#### Problem
+### Problem
 
 1.  **H1 Visibility of system status (Severity 1)**<br>
     The current interface doesn't allow user to be aware of the all the documents needed or what kinds of document to be expected in the following steps. Instead of naming each step 1, 2, 3 and 4, more detailed names such as passport, financial support and etc might be more favorable.

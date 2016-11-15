@@ -5,7 +5,7 @@ date:   2016-11-13
 description: 2016-11-13
 ---
 
-#### Our Design
+## Our Design
 In this phase, our design evolved based on the feedback we received during the Design Development phase. Though our original timeline interface concept was not well received, we learned that users care a lot about the timing of tasks. We also learned that users value having a linear, step-based overview of the tasks they need to complete, though our step-based interface was also not well received. We decided to take the best features of both of these interfaces to create an entirely new one. As mentioned in the Design Development write-up, this interface features a linear progression of tasks represented by bubbles across the top of the page. There are larger bubbles for big tasks and smaller bubbles for the sub-tasks that need to be completed before them. The bubbles also have different colors to represent their states: black for incomplete, blue for in progress, green for complete, and gray for inaccessible (need to complete subtasks first).
 
 <figure class="col l8 offset-l2">
@@ -16,16 +16,16 @@ In this phase, our design evolved based on the feedback we received during the D
 	<img src="{{ '/images/acceptance_letter_completed.jpg' | prepend: site.baseurl }}" alt="Digital Prototype Completed Acceptance Letter"> 
 </figure>
 
-#### Changes
+## Changes
 
-##### Digital Prototyping Tradeoffs
+### Digital Prototyping Tradeoffs
 
 While creating pages for our [digital prototype](https://invis.io/M399OC4K2), we realized that we only needed to design the steps up to the I-20 to receive useful feedback on our interface. This is because the steps are fairly repetitive and testing the process up to the I-20 will give us enough feedback on the core interaction. Additionally, creating pages for every single step in the process would be unnecessarily time consuming for us.
 
 
 Another tradeoff is the flexibility in the digital prototype. When paper prototyping, we used a transparent sheet and a dry erase marker to easily and quickly represent almost any state the user could reach. In the digital prototype, it is a hassle to create a separate page for all of the possible states of the application, so we simplified down to one interaction path and made the walkthrough scenario very linear.
 
-##### Heuristic Evaluations
+### Heuristic Evaluations
 
 Based on our work in this phase and the feedback we received from the heuristic evaluations ([Casey]({{"/documents/casey-eval.html" | prepend: site.baseurl }}), [Christina]({{"/documents/christina-eval.html" | prepend: site.baseurl }}), [Deniz]({{"/documents/deniz-eval.html" | prepend: site.baseurl }}), [Jason]({{"/documents/jason-eval.html" | prepend: site.baseurl }}), [Patrick]({{"/documents/patrick-eval.html" | prepend: site.baseurl }})), we plan on making the following changes to [our prototype](https://invis.io/M399OC4K2):
 
@@ -64,7 +64,7 @@ To support recognition rather than recall, we will include a way for the user to
 **Steps to Complete on Milestone Cards**<br>
 In the heuristic evaluation, some of our evaluators noted a violation of the visibility into system status heuristic. It was hard to tell what the exact steps that needed to be finished to complete the milestone task were. This was because our navigation bar could not convey a lot of information due to space constraints. To fix this, on our milestone pages, we will add a list of steps that need to be completed first, which will map to the dots on our navigation bar. This will allow us to map the numbers on the dots to actual step titles improving the way subtasks are conveyed.
 
-#### Key Insights
+## Key Insights
 We realized we didn’t look at inspirational designs as much as we could have. For example, the login page vs. a create account page was confusing in our prototype, but could have been resolved earlier if we had compared it to current websites’ log in/create account pages.
 
 
@@ -73,17 +73,18 @@ It was only once we designed the prototype on a computer that we realized detail
 
 We assumed some features didn’t need to be functional in our prototype, but this confused our users. For example, the dots didn’t actually allow a user to navigate between screens in our prototype, because we thought we could explain it as we were showing the prototype to them. However, our reviewers got confused because they expected it to be functional, and it broke their expectation. They spent more time commenting on this, and it prevented us from getting feedback on other parts of our app.
 
-#### Questions for Future
+## Questions for Future
 - Will the changes proposed in this heuristic evaluation solve the problems we’ve identified?
 - Will people tire of using our app, especially since the steps are repetitive? How can we account for this in user testing? 
 - How can we properly user test for someone using our app in a long term visa process? Our user tests capture how people use the app when they first open it, but this may not be completely representative of long term use.
 - Is the dot timeline intuitive as a navigation? Will people understand how to use this to go from step to step?
 
-#### Effort Chart
-Person      | What They Did
----         | ---
-Haley       |Designed 2 screens, created landing page, heuristic evaluations
-Shrinidhi   |Designed 2 screens, helped create master style in indesign, heuristic evaluations, scenarios script
-Radmer      |Designed 2 screens, linked screens in invision, heuristic evaluations, helped w/ scenarios script
-Franton     |Designed 2 screens, helped create master style in indesign, heuristic evaluations, designed and pushed the website
-Aaron       |Designed 2 screens, created master style in indesign, heuristic evaluations
+## Effort Chart
+
+|Person      | What They Did|
+|---         |---|
+|Haley       |Designed 2 screens, created landing page, heuristic evaluations|
+|Shrinidhi   |Designed 2 screens, helped create master style in indesign, heuristic evaluations, scenarios script|
+|Radmer      |Designed 2 screens, linked screens in invision, heuristic evaluations, helped w/ scenarios script|
+|Franton     |Designed 2 screens, helped create master style in indesign, heuristic evaluations, designed and pushed the website|
+|Aaron       |Designed 2 screens, created master style in indesign, heuristic evaluations|
