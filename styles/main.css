@@ -283,6 +283,11 @@ strong, b{
 img{
     max-width: 100%;
 }
+.my-text-body img{
+    -webkit-box-shadow: 0.5px 0.5px 8px rgba(0, 0, 0, 0.1), inset 0 0 40px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0.5px 0.5px 8px rgba(0, 0, 0, 0.1), inset 0 0 40px rgba(0, 0, 0, 0.05);
+    box-shadow: 0.5px 0.5px 8px rgba(0, 0, 0, 0.1), inset 0 0 40px rgba(0, 0, 0, 0.05);
+}
 figcaption{
     font-style: italic;
 }
