@@ -79,6 +79,7 @@ We assumed some features didn’t need to be functional in our prototype, but th
 - How can we properly user test for someone using our app in a long term visa process? Our user tests capture how people use the app when they first open it, but this may not be completely representative of long term use.
 - Is the dot timeline intuitive as a navigation? Will people understand how to use this to go from step to step?
 
+
 ## Effort Chart
 
 |Person      | What They Did|

@@ -253,6 +253,9 @@ strong, b{
     list-style-type: inherit;
     clear: both;
 }
+.my-text-body td, th{
+    padding: 5px;
+}
 
 .my-twitter-link:hover{
     color: #1da0f2;
