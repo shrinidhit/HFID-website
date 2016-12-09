@@ -1,13 +1,14 @@
 ---
 layout: default
 ---
-<article class="center-align">
+<article>
   <h2 class="my-mini-heading">{{ page.title }}</h2>
 
   <div class="my-text-body">
     {{ content }}
   </div>
-  <div class="center-align">
+  <div class="center-align footer-buttons">
+    <a class="btn-flat btn-large" href="{{ site.baseurl }}{% post_url 2016-11-13-design-refinement %}">{{ page.parenttitle }}</a>
     <a class="btn-flat btn-large" href="{{ site.baseurl }}/">{{ site.home_btn }}</a>
   </div>
 </article>
