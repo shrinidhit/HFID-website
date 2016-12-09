@@ -22,12 +22,12 @@ We want to test this with six users. Each user will only try one condition, so w
 
 ##### Option A:
 <figure class="col l8 offset-l2">
-	<img src="{{ '/images/StartPage_V4.pdf' | prepend: site.baseurl }}" alt="">
+	<img src="{{ '/images/StartPage_V4.png' | prepend: site.baseurl }}" alt="">
 </figure>
 
 ##### Option B:
 <figure class="col l8 offset-l2">
-	<img src="{{ '/images/StartPage_V4_alt.pdf' | prepend: site.baseurl }}" alt="">
+	<img src="{{ '/images/StartPage_V4_alt.png' | prepend: site.baseurl }}" alt="">
 </figure>
 
 ### Experiment Two
@@ -45,12 +45,12 @@ We want to test this with six users. Each user will only try one condition, so w
 
 ##### Option A:
 <figure class="col l8 offset-l2">
-	<img src="{{ '/images/StartPage_V3.pdf' | prepend: site.baseurl }}" alt="">
+	<img src="{{ '/images/StartPage_V3.png' | prepend: site.baseurl }}" alt="">
 </figure>
 
 ##### Option B:
 <figure class="col l8 offset-l2">
-	<img src="{{ '/images/StartPage_V2_alt.pdf' | prepend: site.baseurl }}" alt="">
+	<img src="{{ '/images/StartPage_V2_alt.png' | prepend: site.baseurl }}" alt="">
 </figure>
 
 ### Experiment Three
@@ -67,12 +67,12 @@ We want to test this with six users. Each user will only try one condition, so w
 
 ##### Option A:
 <figure class="col l8 offset-l2">
-	<img src="{{ '/images/StartPage_V4_alt.pdf' | prepend: site.baseurl }}" alt="">
+	<img src="{{ '/images/StartPage_V4_alt.png' | prepend: site.baseurl }}" alt="">
 </figure>
 
 ##### Option B:
 <figure class="col l8 offset-l2">
-	<img src="{{ '/images/StartPage_V3.pdf' | prepend: site.baseurl }}" alt="">
+	<img src="{{ '/images/StartPage_V3.png' | prepend: site.baseurl }}" alt="">
 </figure>
 
 
